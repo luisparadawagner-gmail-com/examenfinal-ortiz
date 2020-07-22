@@ -1,0 +1,42 @@
+[
+  {
+    "nombre": "María",
+    "apellido": "Rivarola",
+    "telefono": 2996532457,
+    "direccion": "San Martin 123",
+    "fechaDeNacimiento": "17/05/85",
+    "nombreRutina": "Biceps",
+    "numeroDeRepeticiones": 25,
+    "pesoLevantar": 45
+  },
+  {
+    "nombre": "Roberto",
+    "apellido": "Rarlos",
+    "telefono": 2996532457,
+    "direccion": "Belgrano 123",
+    "fechaDeNacimiento": "17/06/85",
+    "nombreRutina": "Triceps",
+    "numeroDeRepeticiones": 15,
+    "pesoLevantar": 60
+  },
+  {
+    "nombre": "Julio",
+    "apellido": "Iglesias",
+    "telefono": 2996532457,
+    "direccion": "Brown 123",
+    "fechaDeNacimiento": "17/07/85",
+    "nombreRutina": "Piernas",
+    "numeroDeRepeticiones": 20,
+    "pesoLevantar": 50
+  },
+  {
+    "nombre": "Giemena",
+    "apellido": "Gutierrez",
+    "telefono": 2996532457,
+    "direccion": "Yrigoyen 123",
+    "fechaDeNacimiento": "17/08/85",
+    "nombreRutina": "Pecho",
+    "numeroDeRepeticiones": 30,
+    "pesoLevantar": 40
+  }
+]
