@@ -32,6 +32,8 @@ export class FormularioRutinaComponent implements OnInit {
 
   initForm(editarRutina: Rutina) {
     this.rutinaForm = this.fb.group({
+      nombre: [editarRutina ? editarRutina.nombre : ''],
+      apellido: [editarRutina ? editarRutina.apellido : ''],
       nombreRutina: [editarRutina ? editarRutina.nombreRutina : ''],
       numeroDeRepeticiones: [
         editarRutina ? editarRutina.numeroDeRepeticiones : '',
