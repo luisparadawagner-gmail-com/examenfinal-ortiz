@@ -1,0 +1,30 @@
+[
+  {
+    "nombre": "María",
+    "apellido": "Rivarola",
+    "nombreRutina": "Biceps",
+    "numeroDeRepeticiones": 25,
+    "pesoLevantar": 45
+  },
+  {
+    "nombre": "Roberto",
+    "apellido": "Rarlos",
+    "nombreRutina": "Triceps",
+    "numeroDeRepeticiones": 15,
+    "pesoLevantar": 60
+  },
+  {
+    "nombre": "Julio",
+    "apellido": "Iglesias",
+    "nombreRutina": "Piernas",
+    "numeroDeRepeticiones": 20,
+    "pesoLevantar": 50
+  },
+  {
+    "nombre": "Giemena",
+    "apellido": "Gutierrez",
+    "nombreRutina": "Pecho",
+    "numeroDeRepeticiones": 30,
+    "pesoLevantar": 40
+  }
+]

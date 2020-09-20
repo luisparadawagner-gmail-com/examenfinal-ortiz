@@ -1,0 +1,57 @@
+<h3>Tabla de Rutina:</h3>
+
+<mat-table [dataSource]="dataSource" class="mat-elevation-z8" #table>
+  <ng-container matColumnDef="nombre">
+    <mat-header-cell *matHeaderCellDef>Nombre</mat-header-cell>
+    <mat-cell *matCellDef="let element">
+      {{ element.nombre | titlecase }}
+    </mat-cell>
+  </ng-container>
+
+  <ng-container matColumnDef="apellido">
+    <mat-header-cell *matHeaderCellDef>Apellido</mat-header-cell>
+    <mat-cell *matCellDef="let element">
+      {{ element.apellido | titlecase }}
+    </mat-cell>
+  </ng-container>
+
+  <ng-container matColumnDef="nombreRutina">
+    <mat-header-cell *matHeaderCellDef>Nombre De Rutina</mat-header-cell>
+    <mat-cell *matCellDef="let element"> {{ element.nombreRutina }} </mat-cell>
+  </ng-container>
+
+  <ng-container matColumnDef="numeroDeRepeticiones">
+    <mat-header-cell *matHeaderCellDef>Numero De Repeticiones</mat-header-cell>
+    <mat-cell *matCellDef="let element">
+      {{ element.numeroDeRepeticiones }}
+    </mat-cell>
+  </ng-container>
+
+  <ng-container matColumnDef="pesoLevantar">
+    <mat-header-cell *matHeaderCellDef>Peso a Levantar</mat-header-cell>
+    <mat-cell *matCellDef="let element">
+      {{ element.pesoLevantar }}
+    </mat-cell>
+  </ng-container>
+
+  <ng-container matColumnDef="asociarRutina">
+    <mat-header-cell *matHeaderCellDef>Asociar Rutina</mat-header-cell>
+    <mat-cell *matCellDef="let element">
+      <button mat-mini-fab color="warn" (click)="asociarRutina(element)">
+        <mat-icon>create</mat-icon>
+      </button>
+    </mat-cell>
+  </ng-container>
+
+  <ng-container matColumnDef="listarRutina">
+    <mat-header-cell *matHeaderCellDef>Listar Rutina</mat-header-cell>
+    <mat-cell *matCellDef="let element">
+      <button mat-mini-fab color="warn" (click)="listarRutina(element)">
+        <mat-icon>create</mat-icon>
+      </button>
+    </mat-cell>
+  </ng-container>
+
+  <mat-header-row *matHeaderRowDef="displayedColumns"></mat-header-row>
+  <mat-row *matRowDef="let row; columns: displayedColumns"></mat-row>
+</mat-table>

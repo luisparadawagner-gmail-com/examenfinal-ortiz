@@ -45,6 +45,6 @@ export class FormularioRutinaComponent implements OnInit {
     this.rutinaForm.value;
 
     this.rutina = this.rutinaForm.value;
-    this.router.navigate(['/tabla-cliente-component', this.rutina]);
+    this.router.navigate(['/tabla-rutina-component', this.rutina]);
   }
 }

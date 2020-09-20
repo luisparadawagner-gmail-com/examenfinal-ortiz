@@ -50,10 +50,10 @@ export class TablaClienteComponent implements OnInit {
   }
 
   asociarRutina(element) {
-    this.router.navigate(['/formulario-rutina-component', element]);
+    this.router.navigate(['/tabla-rutina-component', element]);
   }
 
   listarRutina(element) {
-    this.router.navigate(['/formulario-rutina-component', element]);
+    this.router.navigate(['/tabla-rutina-component', element]);
   }
 }

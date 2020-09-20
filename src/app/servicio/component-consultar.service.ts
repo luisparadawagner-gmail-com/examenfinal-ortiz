@@ -9,4 +9,8 @@ export class ComponentConsultarService {
   getCliente(): Observable<any> {
     return this.httpClient.get('./assets/Cliente.json');
   }
+
+  getRutina(): Observable<any> {
+    return this.httpClient.get('./assets/Rutina.json');
+  }
 }

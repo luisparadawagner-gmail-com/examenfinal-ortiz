@@ -25,6 +25,7 @@ import { NoopAnimationsModule } from '@angular/platform-browser/animations';
 import { HttpClientModule } from '@angular/common/http';
 
 import { MatSelectModule } from '@angular/material/select';
+import { TablaRutinaComponent } from './componentes/tabla-rutina/tabla-rutina.component';
 
 @NgModule({
   declarations: [
@@ -32,6 +33,7 @@ import { MatSelectModule } from '@angular/material/select';
     FormularioClienteComponent,
     FormularioRutinaComponent,
     TablaClienteComponent,
+    TablaRutinaComponent,
   ],
   imports: [
     BrowserModule,
